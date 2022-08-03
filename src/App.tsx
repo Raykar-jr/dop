@@ -9,6 +9,7 @@ type getType = {
     "body": string
 }
 
+
 function App() {
     const [get, setGet] = useState<Array<getType>>([])
     const getRequestHandler = () => {
